@@ -1,0 +1,221 @@
+\documentclass[10pt]{scrbook} 
+\bf 
+\usepackage[utf8]{inputenc} 
+\usepackage[a4paper]{geometry} 
+\usepackage{graphicx}  
+\usepackage{paralist} 
+\usepackage{verbatim} 
+\usepackage[dvipsnames,table]{xcolor}
+\usepackage{subfig} 
+\usepackage{listings}  
+\usepackage{appendix}
+\usepackage{multicol}
+\usepackage[final]{pdfpages}
+\usepackage{array}
+\usepackage{csquotes}
+\usepackage{wrapfig}
+\usepackage{sidecap}
+\usepackage[outline]{contour}
+\usepackage{eurosym}
+\usepackage{lmodern}
+\usepackage[colorlinks=true, linkcolor=NavyBlue, citecolor=NavyBlue, urlcolor=NavyBlue]{hyperref} 
+\usepackage{amssymb,amsmath,amsthm}
+\usepackage{tocvsec2}
+\usepackage{fancyhdr}
+\usepackage{sectsty}
+\usepackage{tabularx,booktabs}
+\usepackage[nottoc,notlof,notlot]{tocbibind} 
+\usepackage[titles,subfigure]{tocloft} 
+\usepackage{lastpage}
+
+\setlength{\hoffset}{-18pt}        
+\setlength{\oddsidemargin}{0pt} 
+\setlength{\evensidemargin}{9pt} 
+\setlength{\marginparwidth}{54pt} 
+\setlength{\textwidth}{481pt} 
+\setlength{\voffset}{-18pt} 
+\setlength{\marginparsep}{7pt} 
+\setlength{\topmargin}{0pt} 
+\setlength{\headheight}{-1em} 
+\setlength{\headsep}{0pt} 
+\setlength{\footskip}{27pt} 
+\setlength{\textheight}{708pt} 
+\setlength{\parindent}{0cm}
+
+\pagestyle{fancy} 
+
+\lhead{}\chead{}\rhead{}
+\lfoot{}\cfoot{\thepage}\rfoot{}
+\allsectionsfont{\sffamily\mdseries\upshape}
+\cfoot{ \sf \thepage /3}
+\linespread{1.2}
+\font\sb=ec-lmssdc10 at 9pt
+
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\headrulewidth}{0pt} 
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{M}[1]{>{\raggedright}p{#1}}
+
+
+\begin{document}
+
+
+
+\parbox[][4cm][t]{16.3cm}{ 
+\begin{flushright}
+{\LARGE Léonard Seydoux}\\
+PhD student in Seismology\\
+Institut de Physique du Globe de Paris\\
+1 rue Jussieu 75005 Paris, France\\
+{\href{mailto:seydoux@ipgp.fr}{\it seydoux@ipgp.fr}\\
++331 83 95 75 43\\
+French, 27 years old}
+\end{flushright}
+}
+
+
+
+
+
+
+
+
+
+% \begin{tabularx}{\textwidth}{p{5em}ll}
+% & {\large Research interests} \\[0.7em]
+% \hline \\
+
+% & \parbox[t]{0.85\textwidth}{I am mainly motivated in developping methods to improve the quality of passive imaging in real context. I am specialized in covariance analysis of seismic and acoustic data. Ambient noise correlation methods, and near real-time monitoring. Signal detection embedded in noise and beamforming. Array analysis in general, which are becoming more and more interesting with the growing number of available array-data.}
+% \end{tabularx} 
+% \vspace{3em}
+
+
+
+
+
+
+
+
+
+
+
+\begin{tabularx}{\textwidth}{R{7em}ll}
+& {\large Education} \\[0.7em]
+\hline \\
+
+
+\textcolor{gray}{\sb 2013-16} & \textbf{Ph.D. in Seismology}, Institut de Physique du Globe de Paris, France\\
+\textcolor{gray}{\sb 2011-13} & \textbf{M.S. in Acoustics}, Université Pierre et Marie Curie, Paris 6, France\\
+\textcolor{gray}{\sb 2007-11}  &  \textbf{B.S. in Physics}, Université Paul Sabatier, Toulouse 3, France\\
+\end{tabularx} 
+\vspace{3em}
+
+
+
+
+
+\begin{tabularx}{\textwidth}{R{7em}ll}
+& {\large Teaching} \\[0.7em]
+\hline \\
+
+& {\bf Total teaching hours as teacher assistant: $\sim$200 h.} \\
+& {\small \it Paris Diderot University and Institut de Physique du Globe de Paris, Paris, France}\\[1em]
+\textcolor{gray}{\sb Bachelor}& Python programming (20 h)\\
+& Data analysis in Earth sciences (60 h)\\
+& Experimental Physics with Python and Arduino (24 h)\\
+& Office automation (44 h)
+& \\[1em]
+\textcolor{gray}{\sb Master}& Matlab programming (44 h) \\
+& C programming practicals (12 h)
+\end{tabularx} 
+\vspace{3em}
+
+
+
+
+\begin{tabularx}{\textwidth}{R{7em}ll}
+& {\large Research management} \\[0.7em]
+\hline \\
+
+\textcolor{gray}{\sb 2016 (6 mth)} &  \parbox[t]{0.8\textwidth}{\textbf{Master student internship management:} Dr. Jean Soubestre, Institut de Physique du Globe de Paris, Laboratoire de Sismologie. \textit{\'Etude de l’activit\'e du groupe volcanique du Klyuchevskoy au Kamchatka via une m\'ehode de r\'eseau sismique.} \\{\small \it Duration: 6~months. Supervisor: Nikolaï Shapiro (Institut de Physique du Globe de Paris).}}\\[5em] 
+
+\textcolor{gray}{\sb Mar. 2016} & \parbox[t]{0.8\textwidth}{\textbf{Open Classroom at University:} \textit{Music to understand string motion}.{\small Paris Diderot University.  Organizers: Dr. Lambert Caron and Dr. Arnaud Burtin, Institut de Physique du Globe de Paris. Duration:~1~day. Participants:~$\sim$40~bachelor students.}}\\[4em]
+
+\textcolor{gray}{\sb Oct. 2014} & \parbox[t]{0.8\textwidth}{\textbf{Scientific days organization:} \textit{Seismology and tectonics on Earth: from the large scale behaviour to the impact on urban constructions}. {\small Institut de Physique du Globe de Paris. Duration:~3~days. Visitors:~$\sim$80~students from middle and high school, and general public.}}\\[4em]
+
+\textcolor{gray}{\sb  Mar. 2014} &  \parbox[t]{0.8\textwidth}{{\bf IPGP PhD meeting organization:} Website development, communication manager and program comity (\url{https://hekla.ipgp.fr/cdd2014/index.php?page=home}). {\small Meeting duration:~1~week. Participants:~180~PhD students from IPGP + 12~external PhD students. Budget:~15000\euro{}}}
+\end{tabularx}
+\vspace{3em}
+
+
+
+
+
+
+\begin{tabularx}{\textwidth}{R{5em}ll}
+& {\large Publications} \\[0.7em]
+\hline \\[2em]
+
+& {\bf Peer-reviewed journals (2 published, 1 under review, 1 in preparation)}\\[1em]
+
+\textcolor{gray}{\sb in prep.} & \small \parbox[t]{0.8\textwidth}{\textbf{Seydoux, L.}, Shapiro, N. M., de Rosny, J. (2016). {\itshape Anisotropic ambient noise cross-correlation: the inverse filter approach.} To be submitted. }\\[2.5em]
+
+\textcolor{gray}{\sb  under rev.} & \small \parbox[t]{0.8\textwidth}{\textbf{Seydoux, L.}, Shapiro, N. M., de Rosny, J., \& Landes, M. (2016). {\itshape Spatial coherence of the seismic wavefield continuously recorded by the USArray.} Under review in Geophysical Research Letters.}\\[2.5em]
+
+\textcolor{gray}{\sb 2016} & \small \parbox[t]{0.8\textwidth}{\textbf{Seydoux, L.}, Shapiro, N. M., de Rosny, J., Brenguier, F., \& Landes, M. (2016). {\itshape Detecting seismic activity with a covariance matrix analysis of data recorded on seismic arrays.} Geophysical Journal International, 204(3), 1430–1442. \url{http://doi.org/10.1093/gji/ggv531}}\\[3.5em]
+
+
+\textcolor{gray}{\sb 2014} & \small \parbox[t]{0.8\textwidth}{Le Carrou, J. L., Chadefaux, D., {\bf Seydoux, L.}, \& Fabre, B. (2014). {\it A low-cost high-precision measurement method of string motion.} Journal of Sound and Vibrations. \url{http://doi.org/10.1016/j.jsv.2014.04.023}}\\[6em]
+
+& {\bf Conferences proceedings (1 talk, 2 posters)}\\[1em]
+
+\textcolor{gray}{\sb 2016} & \small \parbox[t]{0.8\textwidth}{\textbf{Seydoux, L.}, Shapiro, N., de Rosny (2015, March). {\it A new approach to spatial coherence analysis of the wavefield recorded by seismic arrays : application to one year of data from the USArray.} \href{https://hekla.ipgp.fr/cdd2016/tmp/abstract112.pdf}{In IPGP PhD Meeting, Paris 2016}. (talk)}\\[3.5em]
+
+\textcolor{gray}{\sb 2015} & \small \parbox[t]{0.8\textwidth}{\textbf{Seydoux, L.}, Shapiro, N. M., de Rosny, J., \& Landes, M. (2015, December). {\it A Spatial Coherence Analysis of Seismic Wavefields Based on Array Covariance Matrix: Application to One Year of the USArray Data.} \href{https://agu.confex.com/agu/fm15/webprogram/Paper59436.html}{In 2015 AGU Fall Meeting}. (talk)}\\[3.5em]
+
+\textcolor{gray}{\sb 2015} & \small \parbox[t]{0.8\textwidth}{\textbf{Seydoux, L.}, Shapiro, N., de Rosny, J., \& Brenguier, F. (2015, May). {\it Detecting Seismic Activity with a Covariance Matrix Analysis of Data Recorded on Seismic Arrays.} \href{https://isterre.fr/research-28/teams/waves-and-structures/ambient-noise-imaging-and-monitoring-workshop-cargese-2015}{In Ambient Noise Imaging and Monitoring Workshop, Carg\`ese 2015}. (poster)}\\[3.5em]
+
+\textcolor{gray}{\sb 2015} & \small \parbox[t]{0.8\textwidth}{\textbf{Seydoux, L.}, Shapiro, N., de Rosny, J., Brenguier, F. \& Land\`es M. (2015, March). {\it Detecting Seismic Activity with a Covariance Matrix Analysis of Data Recorded on Seismic Arrays.} \href{https://hekla.ipgp.fr/cdd2015/tmp/abstract1067.pdf}{In IPGP PhD Meeting, Paris 2015}. (poster)}\\[3.5em]
+
+\textcolor{gray}{\sb 2014} & \small \parbox[t]{0.8\textwidth}{\textbf{Seydoux, L.}, Shapiro, N., de Rosny, J., \& Brenguier, F. (2014, December). {\it Detecting Seismic Activity with a Covariance Matrix Analysis of Data Recorded on Seismic Arrays.} \href{http://adsabs.harvard.edu/abs/2014AGUFM.S41A4407S}{In AGU Fall Meeting Abstracts (Vol.1, p.4407)}. (poster)}\\[3.5em]
+
+\textcolor{gray}{\sb 2014} & \small \parbox[t]{0.8\textwidth}{\textbf{Seydoux, L.}, Shapiro, N., de Rosny, J., Brenguier, F. \& Land\`es M. (2014, March). {\it Detecting Seismic Activity with a Covariance Matrix Analysis of Data Recorded on Seismic Arrays.} \href{https://hekla.ipgp.fr/cdd2014/tmp/abstract1067.pdf}{In IPGP PhD Meeting, Paris 2014}. (poster)}\\[6em]
+
+
+& {\bf Invited seminars} \\[1em]
+\textcolor{gray}{\sb 2014} & Invited seminar at the Laboratoire d'Imagerie Paramétrique, UPMC, Paris, France\\
+\textcolor{gray}{\sb 2016} & Invited seminar at the Laboratoire de Planétologie et Géodynamique, Nantes,France
+\end{tabularx} 
+
+
+
+
+
+
+
+
+
+\begin{tabularx}{\textwidth}{R{7em}ll}
+& {\large Skills} \\[0.7em]
+\hline \\
+\textcolor{gray}{\sb Programming}& {\tt Python} (package development), {\tt MATLAB}, {\tt C/C++}\\[0.5em]
+\textcolor{gray}{HPC} & {\tt MPI}, {\tt OpenMP}, {\tt SLURM}\\[0.5em]
+\textcolor{gray}{\sb Geosciences}& Axisem, Tau-p, Generic Mapping Tools \\[0.5em]
+\textcolor{gray}{\sb Operating systems}& Unix (any distribution), Macintosh, Windows  \\[0.5em]
+\textcolor{gray}{\sb Web development} &  HTML, CSS, PHP, SQL\\[0.5em]
+\textcolor{gray}{\sb Other softwares} & \parbox[t]{0.8\textwidth}{Latex, Github, Office suite and equivalents, Adobe Creative Suite and equivalents}\\[0.5em]
+\textcolor{gray}{\sb Languages} & French (native), English (fluent), Spannish (good notions)\\[0.5em]
+\textcolor{gray}{\sb Other}& Driving licence \\
+& Autonomous diver (CMAS international level 2)\\
+& Music education \\
+\end{tabularx} 
+
+
+
+
+
+
+
+
+
+\end{document}

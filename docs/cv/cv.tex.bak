@@ -1,0 +1,191 @@
+\documentclass[10pt]{scrbook} 
+\usepackage[utf8]{inputenc} 
+\usepackage[french]{babel}
+\usepackage{geometry} 
+\geometry{a4paper} 
+\usepackage{graphicx} 
+%%% PACKAGES
+\usepackage{booktabs} % for much better looking tables
+\usepackage{array} % for better arrays (eg matrices) in maths
+\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage[dvipsnames,table]{xcolor}
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+\usepackage{listings}  
+\usepackage{appendix}
+\usepackage{tabularx}
+\usepackage{multicol}
+\usepackage[final]{pdfpages}
+\usepackage{array}
+\usepackage{csquotes}
+\usepackage{wrapfig}
+\usepackage{sidecap}
+\DecimalMathComma
+
+\setlength{\hoffset}{-18pt}        
+\setlength{\oddsidemargin}{0pt} % Marge gauche sur pages impaires
+\setlength{\evensidemargin}{9pt} % Marge gauche sur pages paires
+\setlength{\marginparwidth}{54pt} % Largeur de note dans la marge
+\setlength{\textwidth}{481pt} % Largeur de la zone de texte (17cm)
+\setlength{\voffset}{-18pt} % Bon pour DOS
+\setlength{\marginparsep}{7pt} % Séparation de la marge
+\setlength{\topmargin}{0pt} % Pas de marge en haut
+\setlength{\headheight}{13pt} % Haut de page
+\setlength{\headsep}{10pt} % Entre le haut de page et le texte
+\setlength{\footskip}{27pt} % Bas de page + séparation
+\setlength{\textheight}{708pt} % Hauteur de la zone de texte (25cm)
+\renewcommand{\labelitemi}{\tiny$\triangleright$}
+
+
+\usepackage[colorlinks=true, linkcolor=black, citecolor=black, urlcolor=NavyBlue]{hyperref} 
+\usepackage{minitoc, footmisc}
+\usepackage{amssymb,amsmath,amsthm}
+\usepackage{tocvsec2}
+% ... des algorithmes
+% These packages are all incorporated in the memoir class to one degree or another...
+
+%%% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy
+\renewcommand{\headrulewidth}{0pt} % customise the layout...
+\lhead{}\chead{}\rhead{}
+\lfoot{}\cfoot{\thepage}\rfoot{}
+
+%%% SECTION TITLE APPEARANCE
+\usepackage{sectsty}
+\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+
+%%% ToC (table of contents) APPEARANCE
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+\usepackage{lastpage}
+
+
+%------------------------------------------------------------------------------------------------------------
+\setlength{\parindent}{0cm}
+\cfoot{ \sf \thepage /2}
+
+
+
+\begin{document}
+\sf
+
+\newcolumntype{M}[1]{>{\raggedright}p{#1}}
+
+
+\begin{tabular}{p{1.1cm}M{12cm}M{2.5cm}}
+&
+\parbox[0cm][4cm][t]{20cm}{ {\Huge Léonard Seydoux}\\
+Étudiant à l'Université Pierre et Marie Curie \\
+Né à Albi le 5 août 1989 (24 ans)\\
+Nationalité française\\
+
+{\href{mailto:seydoux@ipgp.fr}{\sf  \textit{seydoux@ipgp.fr}}\\
+(+33) 1 83 95 75 43\\
+Institut de Physique du Globe de Paris\\
+Laboratoire de Sismologie\\
+1, rue Jussieu 75238 Paris Cedex 05}}
+&
+ \parbox[0cm][4cm][t]{2.5cm}{\includegraphics[width=2.5cm]{./photo.pdf}} 
+ \end{tabular} 
+ 
+
+\vspace{40pt}
+
+
+
+
+\setlength{\parindent}{0.15cm}
+
+
+
+\setlength{\parindent}{0cm}
+
+\section*{Cursus et diplômes}
+\hrule
+\vspace{12pt}
+
+
+\begin{tabular}{p{1cm}ll}
+\textcolor{gray}{2013} & \textbf{Master 2 sciences de l'ingénieur spécialité ingénierie acoustique}\\
+\textcolor{gray}{2012} & Université Pierre et Marie Curie, Paris 6\\
+& Moyenne et rang provisoires : 13,1/20 (3e/16)\\
+&\\
+\textcolor{gray}{2012} & \textbf{Master 1 sciences de l'ingénieur spécialité acoustique (3e/18)} \\ 
+\textcolor{gray}{2011} & Université Pierre et Marie Curie, Paris 6\\
+&\\
+\textcolor{gray}{2011}  & \textbf{Licence 3 physique fondamentale (AB)} \\ 
+\textcolor{gray}{2010}  & Université Paul Sabatier, Toulouse 3\\
+& Mémoire : Modélisation d'un battement de cœur\\
+&\\
+\textcolor{gray}{2010}  & \textbf{Licence 2 physique (AB)}\\ 
+\textcolor{gray}{2008}  & Université Paul Sabatier, Toulouse 3\\
+&\\
+\textcolor{gray}{2008}  & \textbf{Licence 1 informatique, mathématiques et mécanique}\\
+\textcolor{gray}{2007}  & Université Paul Sabatier, Toulouse 3\\
+&\\
+\textcolor{gray}{2007}  & \textbf{Baccalauréat scientifique spécialité sciences et vie de la Terre option musique (B)} \\ 
+& Lycée Victor Hugo, Gaillac\\
+&\\
+\end{tabular} 
+
+
+\section*{Stages et projets}
+\hrule
+\vspace{12pt}
+
+
+\begin{tabular}{p{1cm}ll}
+\textcolor{gray}{2013} & \textbf{Stage de master 2 : } \\
+\textcolor{gray}{6 mois} & \textit{Application de méthodes de formation de voies sur les données du réseau UnderVolc.}\\
+&Institut de Physique du Globe de Paris et Institut Langevin\\
+&Encadrement : Nikolaï Shapiro et Julien de Rosny\\
+&\\
+\textcolor{gray}{2012} & \textbf{Stage et projet de master 1 : } \\
+\textcolor{gray}{6 mois} & \textit{Mise en place d'une méthode optique de mesure du mouvement des cordes, application sur }\\
+& \textit{une harpe de concert}\\
+&Institut Jean le Rond d'Alembert dpt. Lutheries - Acoustique - Musique\\
+&Encadrement : Jean-Loïc Le Carrou et Delphine Chadefaux\\
+&\\
+\textcolor{gray}{2012} & \textbf{Projet de master 1 : } \\
+\textcolor{gray}{3 mois} & \textit{Caractérisation de microphones MEMS {\small (Micro ElectroMechanical System)}}\\
+&Institut Jean le Rond d'Alembert dpt. Modélisation, propagation et imagerie acoustique\\
+&Encadrement : Jacques Marchal\\
+\end{tabular} 
+
+\section*{Autres compétences}
+\hrule
+\vspace{12pt}
+
+\textbf{Langages de programmation : } Matlab, C \\
+\textbf{Systèmes d'exploitation : } Linux, Macintosh et Windows\\
+\textbf{Logiciels bureautiques : } \LaTeX, HTML, CSS, suite Office et équivalents, Generic Mapping Tools\\
+
+\textbf{Langues : } Anglais (avancé), espagnol (bonnes notions)\\
+
+\textbf{Titulaire du permis B}\\
+\textbf{Plongeur niveau 2}\\
+
+\textbf{Musique assistée par informatique : } Ableton Live, Logic Pro\\
+\textbf{Photographie numérique  : } Photoshop
+
+\section*{Centres d'intérêts}
+\hrule
+\vspace{12pt}
+
+\textbf{Sport}\\
+Membre de l'association sportive de l'Université Pierre et Marie Curie section plongée sous-marine pour la préparation du niveau 3. Course à pied, randonnée, sports en plein air. \\
+
+\textbf{Musique}\\
+Étude de la flûte et du piano au conservatoire. Apprentissage du piano jazz et claviers par cours particuliers. Production scénique et mastering. \\
+
+\textbf{Arts graphiques}\\
+Dessin vectoriel, création de logos, design de pages web, photographie
+
+
+
+
+\end{document}
