@@ -294,7 +294,7 @@ nav{
             height: auto;
             max-height: 50px;
             max-width: 40px;
-            border: 0.5px solid #999;
+            border: 1px solid #999;
             z-index: 10000;
             margin: 15px;
             margin-right: 0;
