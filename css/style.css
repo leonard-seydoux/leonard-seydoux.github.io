@@ -60,6 +60,7 @@ nav{
     right: -1px;
     height: 37px;
     display: table-row;
+    z-index: 10000;
 }
     nav div{
         display: inline-table;
@@ -299,13 +300,42 @@ nav{
             margin: 15px;
             margin-right: 0;
         }
+
+        .section ul li div{
+            text-align: left;
+        }
+
+        .section ul li div.cpt{
+           display: inline-block;
+           margin: 5px;
+           padding: 0px; 
+           text-align: center;
+           z-index: 0;
+        }
+
+        .section ul li div.cpt p{
+            position: absolute;
+            font-size: 9pt;
+            color: #999;
+            padding: 0;
+        }
+
+        .section ul li div.cpt img{
+            position: relative;
+            border: 1px solid black;
+            z-index: 0;
+            max-width: 200px !important;
+            width: 139px;
+            max-height: 12px !important;
+            margin: 0px;
+        }
  
             .section ul li img:hover{
                 -webkit-filter: brightness(90%);
             }
 
 
-    .section ul li.last{
+    .section ul li:last-child{
         border-bottom: none;
         padding-bottom: 0;
     }
