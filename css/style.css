@@ -210,6 +210,7 @@ nav{
     background: rgba(0, 0, 0, 0.05);
 }
 
+
 .section h3{
     color: rgb(0, 180, 99);
     font-weight: 400;
@@ -262,6 +263,69 @@ nav{
         border: 1px solid #0f67c3;
     }
 
+
+.bokeh
+{
+    display: block;
+    margin-bottom: 30px;
+    border: 1px solid #777;
+    height: auto;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+
+  /*  .bokeh .neutral
+    {
+        margin: 10px;
+        text-align: center;
+    }*/
+
+.bokeh h1{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #777;
+    font-weight: 400;
+    font-size: 110%;
+    color: black;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.05);
+}
+
+
+.bokeh>ul{
+    list-style: none;
+}
+    .bokeh ul li:only-child{
+        display: inline-table;
+        color: black;
+        border-bottom: 1px solid #777;
+        width: 100%; 
+    }
+
+        .bokeh ul li div:only-child{
+            padding: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 20px;
+            vertical-align: middle;
+            text-align: justify;
+        }
+
+    .bokeh ul li:last-child{
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+
+.bokeh-in {
+    padding: 10px;
+}
+
+
+
+
 .section ul{
     list-style: none;
 }
@@ -300,6 +364,7 @@ nav{
             margin: 15px;
             margin-right: 0;
         }
+
 
         .section ul li div{
             text-align: left;
