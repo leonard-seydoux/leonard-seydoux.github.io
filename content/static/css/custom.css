@@ -1,0 +1,160 @@
+/* Import Ubuntu font and make it the primary site font */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+html,
+body {
+    font-family: 'Ubuntu', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    min-height: 100vh !important;
+}
+
+aside {
+    background-color: #000000;
+}
+
+aside a {
+    color: #ffffff;
+    text-transform: none;
+}
+
+aside a:hover {
+    color: #ffdd00;
+}
+
+h2 {
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid #6e6e6e;
+}
+
+h2::before {
+    content: "";
+    display: block;
+    height: 2rem;
+}
+
+a.sc-gituhb {
+    background-color: #ffdd00;
+}
+
+/* Center short page content vertically on larger screens (no effect on mobile) */
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Center the article block vertically when there's extra space.
+    When the article is taller than the viewport, the auto margins collapse
+    and the article will flow normally (top-aligned). */
+main>article.single {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* Apply h1 top padding only when content is taller than the viewport.
+   A small JS script toggles the 'content-taller' class on <html>. */
+:root {
+    --h1-top-padding: 10vh;
+    /* default value, adjust as needed */
+    --base-line-height: 1.4;
+    --heading-line-height: 1.2;
+    --base-font-weight: 300;
+    /* bold based font weight */
+    --heading-font-weight: 500;
+    --strong-font-weight: 500;
+
+    /* stronger weight for headings */
+    --list-item-gap: 1rem;
+}
+
+/* Only apply to h1 inside main so aside headings stay unaffected */
+html.content-taller main h1 {
+    padding-top: var(--h1-top-padding);
+}
+
+/* Increase default line spacing for readability */
+body,
+p {
+    line-height: var(--base-line-height);
+    font-weight: var(--base-font-weight);
+}
+
+body strong,
+p strong {
+    font-weight: var(--strong-font-weight);
+}
+
+/* Slightly tighter line-height for headings */
+h1,
+h2,
+h3 {
+    line-height: var(--heading-line-height);
+    /* font-weight: var(--heading-font-weight); */
+}
+
+h3 {
+    font-size: 100%;
+    font-weight: bold;
+}
+
+/* CV download button styling */
+.cv-download {
+    margin: 0 0 1rem 0;
+}
+
+.download-cv-btn {
+    display: inline-block;
+    background: #ffdd00;
+    color: #000;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.download-cv-btn:hover {
+    background: #ffd000;
+}
+
+/* Small vertical gap between list items in the main content */
+main ul>li,
+main ol>li {
+    margin-bottom: var(--list-item-gap);
+}
+
+/* Avoid extra gap after the whole list */
+main ul,
+main ol {
+    margin-bottom: 0.5rem;
+    padding-left: 1.2em;
+}
+
+/* When the site is in light theme (theme class on body/html), make the aside light grey */
+body.light-theme aside,
+html.light-theme aside {
+    background-color: #f5f5f5;
+}
+
+/* make aside links readable on light grey when theme class present */
+body.light-theme aside a,
+html.light-theme aside a {
+    color: #000000;
+}
+
+body.light-theme aside a:hover,
+html.light-theme aside a:hover {
+    color: #ffdd00;
+}
+
+/* Also apply when the user prefers a light color scheme */
+@media (prefers-color-scheme: light) {
+    aside {
+        background-color: #f5f5f5;
+    }
+
+    aside a {
+        color: #000000;
+    }
+
+    aside a:hover {
+        color: #ffdd00;
+    }
+}
