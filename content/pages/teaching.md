@@ -7,7 +7,7 @@ Order: 3
 
 ## Philosophy
 
-I strongly believe that teaching can be done in an open-source way, leveraging the power of community codes such as Jupyter notebooks. 
+I believe in open-source-based teaching, with using community codes such as Jupyter notebooks. While a part of the courses include theoretical background, I favor hands-on learning through practicals and projects.
 While a part of the courses include theoretical background, I favor hands-on learning through practicals and projects. 
 
 | <div widt=1000></div> | <div widt=1000></div> |

@@ -2,7 +2,7 @@ name: Build and Deploy Pelican
 
 on:
   push:
-    branches: [ "source" ]
+    branches: ["source"]
 
 permissions:
   contents: write
@@ -23,7 +23,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: "3.x"
 
       - name: Install dependencies
         run: |
