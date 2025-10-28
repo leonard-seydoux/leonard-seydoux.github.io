@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="" />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/theme/stylesheet/style.min.css">
+
+  <link id="dark-theme-style" rel="stylesheet" type="text/css"   media="(prefers-color-scheme: dark)"      href="http://127.0.0.1:8000/theme/stylesheet/dark-theme.min.css">
+
+  <link id="pygments-dark-theme" rel="stylesheet" type="text/css"      media="(prefers-color-scheme: dark)"      href="http://127.0.0.1:8000/theme/pygments/paraiso-dark.min.css">
+  <link id="pygments-light-theme" rel="stylesheet" type="text/css"     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"      href="http://127.0.0.1:8000/theme/pygments/emacs.min.css">
+
+
+
+  <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/theme/font-awesome/css/solid.css">
+
+  <link rel="stylesheet" type="text/css"
+    href="http://127.0.0.1:8000/static/css/custom.css">
+
+
+
+
+
+
+
+
+
+
+
+
+  <meta name="author" content="Léonard Seydoux" />
+  <meta name="description" content="" />
+  <meta property="og:site_name" content="Léonard Seydoux's Website"/>
+  <meta property="og:type" content="blog"/>
+  <meta property="og:title" content="Léonard Seydoux's Website"/>
+  <meta property="og:description" content=""/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:url" content="http://127.0.0.1:8000"/>
+  <meta property="og:image" content="/images/earth.gif">
+
+
+
+  <title>Léonard Seydoux's Website &ndash; Ressources</title>
+
+
+</head>
+
+<body >
+
+<aside>
+  <div>
+    <a href="http://127.0.0.1:8000/">
+      <img src="/images/earth.gif" alt="" title="">
+    </a>
+
+    <h1>
+      <a href="http://127.0.0.1:8000/"></a>
+    </h1>
+
+
+
+    <nav>
+      <ul class="list">
+
+
+        <li>
+          <a target="_self"
+            href="http://127.0.0.1:8000/index.html#home">
+            Home
+          </a>
+        </li>
+        <li>
+          <a target="_self"
+            href="http://127.0.0.1:8000/pages/curriculum.html#curriculum">
+            Curriculum
+          </a>
+        </li>
+        <li>
+          <a target="_self"
+            href="http://127.0.0.1:8000/pages/teaching.html#teaching">
+            Teaching
+          </a>
+        </li>
+        <li>
+          <a target="_self"
+            href="http://127.0.0.1:8000/pages/ressources.html#ressources">
+            Ressources
+          </a>
+        </li>
+        <li>
+          <a target="_self"
+            href="http://127.0.0.1:8000/pages/art-corner.html#art-corner">
+            Art corner
+          </a>
+        </li>
+
+      </ul>
+    </nav>
+
+    <ul class="social">
+      <li>
+        <a class="sc-GitHub"  href="https://github.com/leonard-seydoux" target="_blank">
+          <i class="fa-brands fa-GitHub"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</aside>
+  <main>
+
+
+<article class="single">
+  <header>
+    
+    <h1 id="ressources">Ressources</h1>
+  </header>
+  <div>
+<h2>Developed projects</h2>
+<p>There are several open-source projects that I develop and maintain. If you find them useful, please consider giving feedback, reporting issues, or contributing to their development!</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><div style="width: 70px;"></div></th>
+<th style="text-align: left;"><div style="width: 70px;"></div></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><img src="https://github.com/leonard-seydoux/covseisnet/raw/main/docs/source/_static/logo_covseisnet_normal.svg" width="120" style="float: left;"/></td>
+<td style="text-align: left;"><a href="https://github.com/leonard-seydoux/covseisnet">Covseisnet</a> is a Python package for array signal processing, with a focus on data from seismic networks. The core mathematical object of the package is the network covariance matrix, used for signal detection, source separation, localisation, and plane-wave beamforming. The signal detection and processing methods are based on the analysis of the covariance matrix spectrum. The covariance matrix can be used as input for classical array processing tools such as beamforming and inter-station cross-correlations.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><img src="https://github.com/scatseisnet/scatseisnet/blob/main/docs/source/logo/logo_scatseisnet_notext.png?raw=true" alt="Scatseisnet logo" width="120" style="float: left;"/></td>
+<td style="text-align: left;"><a href="https://github.com/scatseisnet/scatseisnet">Scatseisnet</a> is a Python package for seismic signal detection and classification using deep learning. It is built on top of Covseisnet and leverages covariance matrix analysis for efficient seismic data processing. The package includes pre-trained models for various seismic signal types, including earthquakes, volcanic tremors, and anthropogenic noise. Scatseisnet is designed to be user-friendly and easily integrable into existing seismic data analysis workflows.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><img src="https://raw.githubusercontent.com/leonard-seydoux/pycpt-city/main/logo/logo.gif" alt="Pycpt-city logo" width="120" style="float: left;"/></td>
+<td style="text-align: left;"><a href="https://github.com/leonard-seydoux/pycpt-city">PyCPT-city</a> is a Python package for bringing color palette tables (CPT) from the <a href="http://seaviewsensing.com/pub/cpt-city/">cpt-city</a> to Matplotlib. It allows users to easily apply a wide range of color palettes to their visualizations, enhancing the aesthetic appeal and interpretability of geospatial and scientific data plots. The package supports various CPT formats and provides functions for loading, converting, and applying these color palettes in Matplotlib.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><img src="https://raw.githubusercontent.com/leonard-seydoux/pygmrt/main/logo/logo.png" alt="Pygmrt logo" width="120" style="float: left;"/></td>
+<td style="text-align: left;"><a href="https://github.com/leonard-seydoux/pygmrt">PyGMRT</a> is a Python package for automating the fetch data from the <a href="https://www.gmrt.org/">Global Multi-Resolution Topography (GMRT) Synthesis</a> database. The package is designed to facilitate the integration of GMRT data into geospatial analysis workflows, making it easier for researchers and scientists to access and utilize this valuable resource for their studies.</td>
+</tr>
+</tbody>
+</table>
+<h2>Contributed projects</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"></th>
+<th style="text-align: left;"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><img src="https://github.com/ebeauce/beampower/raw/main/data/beampower_logo.png" width="90" style="float: left;"/></td>
+<td style="text-align: left;"><a href="https://github.com/ebeauce/beampower">Beampower</a> is a package for beamforming (or backprojection) of seismic signal for event detection and location. The Python wrapper can call the C (CPU) or CUDA-C (GPU) implementation.</td>
+</tr>
+</tbody>
+</table>  </div>
+</article>
+
+  </main>
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Léonard Seydoux's Website ",
+  "url" : "http://127.0.0.1:8000",
+  "image": "/images/earth.gif",
+  "description": ""
+}
+</script>
+  <script src="http://127.0.0.1:8000/static/js/content-height.js"></script>
+</body>
+
+</html>
