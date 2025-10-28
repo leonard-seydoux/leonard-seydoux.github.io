@@ -1,7 +1,7 @@
 # Author and site settings
 AUTHOR = "Léonard Seydoux"
 SITENAME = "Léonard Seydoux's Website"
-SITEURL = "http://127.0.0.1:8000/"
+SITEURL = "https://leonard-seydoux.github.io"
 PATH = "content"
 
 # Basic settings
