@@ -7,7 +7,14 @@ Order: 2
 
 #### Professor in Geophysics & Artificial Intelligence
 
-## In a nutshell
+[![](https://img.shields.io/badge/Download-curriculum.pdf-red)](/docs/Léonard Seydoux's%20Curriculum%20Vitae.pdf)
+[![](https://img.shields.io/badge/ORCID-0000--0002--6596--5896-9cc241)](https://orcid.org/0000-0002-6596-5896)
+[![](https://img.shields.io/badge/Google_Scholar-TqLdn9YAAAAJ-4285F4)](https://scholar.google.com/citations?user=TqLdn9YAAAAJ)
+[![](https://img.shields.io/badge/ResearchGate-Leonard--Seydoux-3fc59f)](https://www.researchgate.net/profile/Leonard-Seydoux)
+[![](https://img.shields.io/badge/GitHub-leonard--seydoux-black)](https://github.com/leonard-seydoux)
+[![](https://img.shields.io/badge/LinkedIn-b9457599-0a66c2)](https://www.linkedin.com/in/léonard-seydoux-b9457599/)
+
+## Overview
 
 I currently hold a [chaire de professeur junior](https://www.enseignementsup-recherche.gouv.fr/fr/des-carrieres-plus-attractives-les-chaires-de-professeur-junior-46095) at the [Université Paris Cité](https://www.u-paris.fr) based at the [institut de physique du globe de Paris](https://www.ipgp.fr) since September 2022. 
 I mostly study earthquakes and volcanic eruptions, which are highly destructive but with partially understood mechanisms. My research analyzes subtle geophysical signals, including slow earthquakes, very long-period events, and scattered wavefields, using artificial intelligence and machine learning. I combine high-performance computing, array-based seismic analysis, and advanced signal processing to link these signals to major geological events. I focus on AI-driven hazard assessment, reconstruction of sparse or historical datasets, and multiscale monitoring of fault and volcanic systems, while integrating software development, teaching, and collaborative supervision to connect computational geophysics with practical understanding of Earth's dynamics.
@@ -16,19 +23,10 @@ I mostly study earthquakes and volcanic eruptions, which are highly destructive 
 
 [![](https://img.shields.io/badge/Seismology-lightgrey)](https://en.wikipedia.org/wiki/Seismology)
 [![](https://img.shields.io/badge/Slow%20earthquakes-lightgrey)](https://en.wikipedia.org/wiki/Slow_earthquake)
-[![](https://img.shields.io/badge/Volcanology-lightgrey)](https://en.wikipedia.org/wiki/Volcanology)
 [![](https://img.shields.io/badge/Seismic%20arrays-lightgrey)](https://en.wikipedia.org/wiki/Seismic_array)
-[![](https://img.shields.io/badge/Array%20processing-lightgrey)](https://en.wikipedia.org/wiki/Array_processing)
 [![](https://img.shields.io/badge/Machine--learning-lightgrey)](https://en.wikipedia.org/wiki/Machine_learning)
 [![](https://img.shields.io/badge/Deep--learning-lightgrey)](https://en.wikipedia.org/wiki/Deep_learning)
 [![](https://img.shields.io/badge/Data%20mining-lightgrey)](https://en.wikipedia.org/wiki/Data_mining)
-
-[![](https://img.shields.io/badge/Download-curriculum.pdf-red)](/docs/Léonard Seydoux's%20Curriculum%20Vitae.pdf)
-[![](https://img.shields.io/badge/ORCID-0000--0002--6596--5896-9cc241)](https://orcid.org/0000-0002-6596-5896)
-[![](https://img.shields.io/badge/Google_Scholar-TqLdn9YAAAAJ-4285F4)](https://scholar.google.com/citations?user=TqLdn9YAAAAJ)
-[![](https://img.shields.io/badge/ResearchGate-Leonard--Seydoux-3fc59f)](https://www.researchgate.net/profile/Leonard-Seydoux)
-[![](https://img.shields.io/badge/GitHub-leonard--seydoux-black)](https://github.com/leonard-seydoux)
-[![](https://img.shields.io/badge/LinkedIn-b9457599-0a66c2)](https://www.linkedin.com/in/léonard-seydoux-b9457599/)
 
 
 ## Education
@@ -39,7 +37,7 @@ I mostly study earthquakes and volcanic eruptions, which are highly destructive 
 
 - **BSc in physics** (2011) at [université de Toulouse](https://www.univ-tlse3.fr/decouvrir-nos-diplomes/licence-mention-physique), France.
 
-## Research Experience
+## Appointments
 
 - **Assistant Professor** (current position) with a [chaire de professeur junior](https://www.enseignementsup-recherche.gouv.fr/fr/des-carrieres-plus-attractives-les-chaires-de-professeur-junior-46095) at the [institut de physique du globe de Paris (IPGP)](https://www.ipgp.fr) within the [Université Paris Cité](https://www.u-paris.fr). Research on AI-based monitoring of seismic and volcanic signals, and teaching of seismology, geophysical computing, and machine learning.
 

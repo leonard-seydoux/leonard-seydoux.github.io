@@ -5,8 +5,8 @@
     --code-font: 'Cascadia Code', monospace;
     --primary-font: 'Roboto', sans-serif;
     --color-link: #ff9900;
-    --base-font-weight: 300;
-    --strong-font-weight: 500;
+    --base-font-weight: 400;
+    --strong-font-weight: 600;
     --h1-top-padding: 10vh;
     --base-line-height: 1.4;
     --heading-line-height: 1.2;
@@ -38,6 +38,7 @@
 html,
 body {
     font-family: var(--primary-font);
+    font-size: 18px;
     min-height: 100vh !important;
     background-color: var(--color-background);
 }
@@ -109,14 +110,21 @@ aside a:hover {
 }
 
 /* Linked images */
-aside a img {
-    filter: grayscale(100%) contrast(80%) brightness(120%) !important;
+aside a img,
+aside a video {
+    /* filter: grayscale(100%) contrast(80%) brightness(120%) !important; */
     transition: filter 0.5s ease !important;
     background-color: var(--color-background);
     margin: 0px !important;
     padding: 20px !important;
     padding-left: 21.5px !important;
     padding-top: 21.5px !important;
+}
+
+/* Earth video - ensure it displays properly */
+aside a video#earth-video {
+    width: 100%;
+    display: block;
 }
 
 .logo {

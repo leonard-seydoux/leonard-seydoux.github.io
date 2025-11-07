@@ -1,7 +1,7 @@
 # Author and site settings
 AUTHOR = "Léonard Seydoux"
 SITENAME = "Léonard Seydoux's Website"
-SITEURL = "https://leonard-seydoux.github.io"
+# SITEURL = "https://leonard-seydoux.github.io"
 PATH = "content"
 
 # Basic settings
@@ -34,7 +34,14 @@ STATIC_PATHS = ["images", "static", "extra", "docs"]
 
 # Add your custom stylesheet to the theme
 CUSTOM_CSS = "static/css/custom.css"
-# Use an absolute path so the logo resolves from the site root on every page
+
+# Add custom JavaScript files
+CUSTOM_JS = [
+    "static/js/content-height.js",
+    "static/js/earth-scroll.js",
+]
+
+# Use the original GIF for the logo (will be replaced with video by JavaScript)
 SITELOGO = "/images/earth.gif"
 
 # Browser tab icon (favicon) - use GIF directly
