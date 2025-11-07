@@ -1,7 +1,7 @@
 # Author and site settings
 AUTHOR = "Léonard Seydoux"
 SITENAME = "Léonard Seydoux's Website"
-# SITEURL = "https://leonard-seydoux.github.io"
+SITEURL = "https://leonard-seydoux.github.io"
 PATH = "content"
 
 # Basic settings
