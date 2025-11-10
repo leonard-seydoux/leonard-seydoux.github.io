@@ -119,10 +119,14 @@ aside a video {
     padding: 20px !important;
     padding-left: 21.5px !important;
     padding-top: 21.5px !important;
+    max-width: 140px !important;
+    width: 100%;
+    display: block;
 }
 
 /* Earth video - ensure it displays properly */
 aside a video#earth-video {
+    max-width: 140px !important;
     width: 100%;
     display: block;
 }
