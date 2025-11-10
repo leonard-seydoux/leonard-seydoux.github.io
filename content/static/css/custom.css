@@ -115,20 +115,19 @@ aside a video {
     /* filter: grayscale(100%) contrast(80%) brightness(120%) !important; */
     transition: filter 0.5s ease !important;
     background-color: var(--color-background);
-    margin: 0px !important;
+    margin: 0 auto !important;
     padding: 20px !important;
     padding-left: 21.5px !important;
     padding-top: 21.5px !important;
     max-width: 140px !important;
-    width: 100%;
     display: block;
 }
 
 /* Earth video - ensure it displays properly */
 aside a video#earth-video {
     max-width: 140px !important;
-    width: 100%;
     display: block;
+    margin: 0 auto !important;
 }
 
 .logo {
