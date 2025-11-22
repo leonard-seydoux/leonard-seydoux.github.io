@@ -16,7 +16,7 @@
             if (!earthImg) return;
 
             // Use the cropped MP4 version
-            const videoSrc = earthImg.src.replace(/earth.*\.gif/, 'earth-cropped.mp4');            // Create video element
+            const videoSrc = earthImg.src.replace(/earth.*\.gif/, 'earth.mp4');            // Create video element
             video = document.createElement('video');
             video.src = videoSrc;
             video.loop = true;
@@ -28,7 +28,7 @@
             video.className = earthImg.className;
 
             // Add grey background and make circular
-            video.style.backgroundColor = 'rgba(128, 128, 128, 0.5)';
+            video.style.backgroundColor = 'rgba(0, 0, 0, 0.7)'; // Light grey background
             video.style.borderRadius = '50%'; // Make it circular to match the Earth
 
             // Ensure proper sizing

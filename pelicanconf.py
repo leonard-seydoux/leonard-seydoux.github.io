@@ -44,11 +44,10 @@ CUSTOM_JS = [
 # Use the original GIF for the logo (will be replaced with video by JavaScript)
 SITELOGO = "/images/earth.gif"
 
-# Browser tab icon (favicon) - use GIF directly
-# FAVICON = "/images/profile.png"
-# 'extra/favicon.ico': {'path': 'favicon.ico'}
+# Browser tab icon (favicon) - using PNG file
+FAVICON = "favicon.png"
 EXTRA_PATH_METADATA = {
-    "extra/favicon.ico": {"path": "favicon.ico"},
+    "extra/1518145-200.ico": {"path": "favicon.png"},
 }
 
 THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE = True
