@@ -4,7 +4,7 @@
     let scrollAccumulator = 0;
     let video = null;
     let isLoaded = false;
-    let frameDuration = 1 / 30; // 30 fps
+    let frameDuration = 1 / 50; // 30 fps
 
     // How many pixels of scroll per frame advance
     const pixelsPerFrame = 2;

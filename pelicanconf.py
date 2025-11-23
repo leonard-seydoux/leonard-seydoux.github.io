@@ -22,7 +22,7 @@ AUTHOR_FEED_RSS = None
 LINKS = ()
 
 # Social widget
-SOCIAL = (("GitHub", "https://github.com/leonard-seydoux"),)
+# SOCIAL = (("GitHub", "https://github.com/leonard-seydoux"),)
 
 DEFAULT_PAGINATION = 10
 

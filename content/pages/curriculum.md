@@ -5,7 +5,7 @@ Category: pages
 Order: 2
 ---
 
-#### Professor in Geophysics & Artificial Intelligence
+### Léonard Seydoux<br>Professor in Geophysics & Artificial Intelligence
 
 [![](https://img.shields.io/badge/Download-curriculum.pdf-red)](/docs/Léonard Seydoux's%20Curriculum%20Vitae.pdf)
 [![](https://img.shields.io/badge/ORCID-0000--0002--6596--5896-9cc241)](https://orcid.org/0000-0002-6596-5896)
@@ -13,14 +13,6 @@ Order: 2
 [![](https://img.shields.io/badge/ResearchGate-Leonard--Seydoux-3fc59f)](https://www.researchgate.net/profile/Leonard-Seydoux)
 [![](https://img.shields.io/badge/GitHub-leonard--seydoux-black)](https://github.com/leonard-seydoux)
 [![](https://img.shields.io/badge/LinkedIn-b9457599-0a66c2)](https://www.linkedin.com/in/léonard-seydoux-b9457599/)
-
-## Overview
-
-I currently hold a [chaire de professeur junior](https://www.enseignementsup-recherche.gouv.fr/fr/des-carrieres-plus-attractives-les-chaires-de-professeur-junior-46095) at the [Université Paris Cité](https://www.u-paris.fr) based at the [institut de physique du globe de Paris](https://www.ipgp.fr) since September 2022. 
-I mostly study earthquakes and volcanic eruptions, which are highly destructive but with partially understood mechanisms. My research analyzes subtle geophysical signals, including slow earthquakes, very long-period events, and scattered wavefields, using artificial intelligence and machine learning. I combine high-performance computing, array-based seismic analysis, and advanced signal processing to link these signals to major geological events. I focus on AI-driven hazard assessment, reconstruction of sparse or historical datasets, and multiscale monitoring of fault and volcanic systems, while integrating software development, teaching, and collaborative supervision to connect computational geophysics with practical understanding of Earth's dynamics.
-
-
-
 [![](https://img.shields.io/badge/Seismology-lightgrey)](https://en.wikipedia.org/wiki/Seismology)
 [![](https://img.shields.io/badge/Slow%20earthquakes-lightgrey)](https://en.wikipedia.org/wiki/Slow_earthquake)
 [![](https://img.shields.io/badge/Seismic%20arrays-lightgrey)](https://en.wikipedia.org/wiki/Seismic_array)
@@ -31,7 +23,7 @@ I mostly study earthquakes and volcanic eruptions, which are highly destructive 
 
 ## Education
 
-- **PhD in seismology** (2016) at [institut de physique du globe de Paris](https://www.ipgp.fr) and [institut Langevin](https://www.institut-langevin.espci.fr), Paris, France. 
+- **PhD in seismology** (2016) at [institut de physique du globe de Paris](https://www.ipgp.fr) and [institut Langevin](https://www.institut-langevin.espci.fr), France. 
 
 - **MSc in mechanics** (2013) at [sorbonne université](https://masters-sdi.sorbonne-universite.fr/la-mention-mecanique/le-parcours-acoustique), Paris, France.
 
