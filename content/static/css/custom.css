@@ -1,12 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 :root {
     --code-font: 'Cascadia Code', monospace;
-    --primary-font: 'Lato';
+    --primary-font: 'Open Sans', sans-serif;
     --color-link: #ff9900;
     --base-font-weight: 400;
     --strong-font-weight: 600;
@@ -57,6 +54,7 @@ p {
 body strong,
 p strong {
     font-weight: var(--strong-font-weight);
+    color: var(--color-secondary-text);
 }
 
 /* Headings */
@@ -73,6 +71,7 @@ h1 {
     font-size: 400%;
     font-weight: 900;
     color: var(--color-secondary-text);
+    padding-bottom: 100px;
 }
 
 h2 {
@@ -80,7 +79,8 @@ h2 {
     padding-bottom: 0.3rem;
     padding-top: 2rem;
     color: var(--color-secondary-text);
-    border-bottom: 3px solid var(--color-secondary-text);
+    font-weight: 900;
+    /* border-bottom: 3px solid var(--color-secondary-text); */
 }
 
 h3 {
@@ -104,6 +104,18 @@ aside {
     background-color: var(--color-background-aside);
     font-weight: 400;
     padding-top: 100px;
+}
+
+/* Make aside full height if phone */
+@media (max-width: 600px) {
+
+    aside {
+        height: 60vh;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
 }
 
 aside a {
@@ -133,7 +145,7 @@ aside a video#earth-video {
     margin: 0 auto !important;
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 50%;
-    margin-bottom: 100px !important;
+    /* margin-bottom: 100px !important; */
 }
 
 .logo {
@@ -206,7 +218,16 @@ table,
 tr,
 td {
     border: none !important;
-    padding-bottom: 2rem !important;
+    padding-bottom: 1rem !important;
+    line-height: 1.4 !important;
+}
+
+table {
+    width: 100% !important;
+}
+
+td {
+    padding-right: 4rem !important;
 }
 
 code,
@@ -241,4 +262,27 @@ blockquote {
     padding-left: 0 !important;
     padding-right: 0 !important;
     border: none !important;
+}
+
+.vignette {
+    display: inline-flex;
+    min-width: 300px;
+    /* border: 1px solid blue; */
+    flex-wrap: wrap;
+    max-width: 47%;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.vignette img {
+    margin-bottom: auto;
+    margin-right: 2em;
+    /* border: 1px solid green; */
+
+}
+
+.vignette p {
+    margin: 0;
+    /* border: 1px solid red; */
 }

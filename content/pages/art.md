@@ -34,8 +34,6 @@ The idea is to map each chemical element to a musical note, based on its atomic 
 
 ## Earth rocks
 
-### Score for drums
-
 <iframe class="picture" width=400 height=300 scrolling="yes" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1879080243&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=true""></iframe>  
 
 Earth Rock is a project that translates seismic activity data into drum scores using Python and MIDI format. By processing a catalog of seismic events, the project converts the data into rhythmic patterns, creating an artistic representation of seismicity. 

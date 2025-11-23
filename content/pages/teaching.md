@@ -5,10 +5,11 @@ Category: pages
 Order: 3
 ---
 
-## Philosophy
 
-I believe in open-source-based teaching, with using community codes such as Jupyter notebooks. While a part of the courses include theoretical background, I favor hands-on learning through practicals and projects.
-While a part of the courses include theoretical background, I favor hands-on learning through practicals and projects. 
+> I believe in open-source-based teaching, with using community codes such as Jupyter notebooks. While a part of the courses include theoretical background, I favor hands-on learning through practicals and projects. While a part of the courses include theoretical background, I favor hands-on learning through practicals and projects. 
+
+## Tools and infrastructure
+
 
 | <div widt=1000></div> | <div widt=1000></div> |
 |-|-|
