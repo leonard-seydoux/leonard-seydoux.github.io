@@ -1,9 +1,8 @@
-// Control Earth GIF playback based on scroll speed using video
+// Control Earth video playback based on scroll speed
 (function () {
     let lastScrollY = window.scrollY;
     let scrollAccumulator = 0;
     let video = null;
-    let earthImg = null;
     let isLoaded = false;
     let frameDuration = 1 / 30; // 30 fps
 
@@ -12,39 +11,20 @@
 
     async function initEarthScrollControl() {
         try {
-            earthImg = document.querySelector('aside a img[src*="earth"]');
-            if (!earthImg) return;
-
-            // Use the cropped MP4 version
-            const videoSrc = earthImg.src.replace(/earth.*\.gif/, 'earth.mp4');            // Create video element
-            video = document.createElement('video');
-            video.src = videoSrc;
-            video.loop = true;
-            video.muted = true;
-            video.playsInline = true;
-
-            // Copy styles from image
-            video.style.cssText = earthImg.style.cssText;
-            video.className = earthImg.className;
-
-            // Add grey background and make circular
-            video.style.backgroundColor = 'rgba(0, 0, 0, 0.7)'; // Light grey background
-            video.style.borderRadius = '50%'; // Make it circular to match the Earth
-
-            // Ensure proper sizing
-            if (earthImg.width) video.style.width = earthImg.width + 'px';
-            if (earthImg.height) video.style.height = earthImg.height + 'px';
+            // Find the video element directly (no need to replace image)
+            video = document.querySelector('aside video#earth-video');
+            if (!video) return;
 
             // Wait for video to load
             await new Promise((resolve) => {
-                video.addEventListener('loadedmetadata', resolve, { once: true });
-                video.load();
+                if (video.readyState >= 2) {
+                    resolve();
+                } else {
+                    video.addEventListener('loadedmetadata', resolve, { once: true });
+                }
             });
 
-            // Replace image with video
-            earthImg.parentNode.replaceChild(video, earthImg);
-
-            // Pause the video (frozen by default)
+            // Pause the video (frozen by default, controlled by scroll)
             video.pause();
             video.currentTime = 0;
 

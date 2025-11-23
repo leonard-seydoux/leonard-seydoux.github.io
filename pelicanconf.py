@@ -41,8 +41,8 @@ CUSTOM_JS = [
     "static/js/earth-scroll.js",
 ]
 
-# Use the original GIF for the logo (will be replaced with video by JavaScript)
-SITELOGO = "/images/earth.gif"
+# Use the video directly for the logo
+SITELOGO = "/images/earth.mp4"
 
 # Browser tab icon (favicon) - using PNG file
 FAVICON = "favicon.png"
