@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="" />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="https://leonard-seydoux.github.io/theme/stylesheet/style.min.css">
+
+  <link id="dark-theme-style" rel="stylesheet" type="text/css"   media="(prefers-color-scheme: dark)"      href="https://leonard-seydoux.github.io/theme/stylesheet/dark-theme.min.css">
+
+  <link id="pygments-dark-theme" rel="stylesheet" type="text/css"      media="(prefers-color-scheme: dark)"      href="https://leonard-seydoux.github.io/theme/pygments/paraiso-dark.min.css">
+  <link id="pygments-light-theme" rel="stylesheet" type="text/css"     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"      href="https://leonard-seydoux.github.io/theme/pygments/emacs.min.css">
+
+
+
+  <link rel="stylesheet" type="text/css" href="https://leonard-seydoux.github.io/theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="https://leonard-seydoux.github.io/theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="https://leonard-seydoux.github.io/theme/font-awesome/css/solid.css">
+
+  <link rel="stylesheet" type="text/css"
+    href="https://leonard-seydoux.github.io/static/css/custom.css">
+
+<link rel="icon" href="favicon.png" type="image/png">
+
+
+  <link href="https://leonard-seydoux.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Léonard Seydoux's Website Atom">
+
+
+
+
+
+
+
+
+
+  <meta name="author" content="Léonard Seydoux" />
+  <meta name="description" content="" />
+  <meta property="og:site_name" content="Léonard Seydoux's Website"/>
+  <meta property="og:type" content="blog"/>
+  <meta property="og:title" content="Léonard Seydoux's Website"/>
+  <meta property="og:description" content=""/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:url" content="https://leonard-seydoux.github.io"/>
+  <meta property="og:image" content="/images/earth.mp4">
+
+
+
+  <title>Léonard Seydoux's Website &ndash; Ressources</title>
+
+
+</head>
+
+<body >
+
+<aside>
+  <div>
+    <a href="https://leonard-seydoux.github.io/">
+      <video loop muted playsinline id="earth-video">
+        <source src="/images/earth.mp4" type="video/mp4">
+      </video>
+    </a>
+
+    <h1>
+      <a href="https://leonard-seydoux.github.io/"></a>
+    </h1>
+
+
+
+    <nav>
+      <ul class="list">
+
+
+        <li>
+          <a target="_self"
+            href="https://leonard-seydoux.github.io/index.html">
+            Home
+          </a>
+        </li>
+        <li>
+          <a target="_self"
+            href="https://leonard-seydoux.github.io/pages/curriculum.html">
+            Curriculum
+          </a>
+        </li>
+        <li>
+          <a target="_self"
+            href="https://leonard-seydoux.github.io/pages/teaching.html">
+            Teaching
+          </a>
+        </li>
+        <li>
+          <a target="_self"
+            href="https://leonard-seydoux.github.io/pages/ressources.html">
+            Ressources
+          </a>
+        </li>
+        <li>
+          <a target="_self"
+            href="https://leonard-seydoux.github.io/pages/art-corner.html">
+            Art corner
+          </a>
+        </li>
+
+      </ul>
+    </nav>
+
+  </div>
+
+</aside>
+  <main>
+
+
+<article class="single">
+  <header>
+    
+    <h1 id="ressources">Ressources</h1>
+  </header>
+  <div>
+<h2>Developed projects</h2>
+<p>There are several open-source projects that I develop and maintain. If you find them useful, please consider giving feedback, reporting issues, or contributing to their development!</p>
+<table>
+<thead>
+<tr>
+<th><div style="width: 100px;">Project</div></th>
+<th><div style="width: 100px;">Description</div></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://leonard-seydoux.github.io/covseisnet"> <img src="https://github.com/leonard-seydoux/covseisnet/raw/main/docs/source/_static/logo_covseisnet_normal.svg" width="120"/> </a></td>
+<td><a href="https://github.com/leonard-seydoux/covseisnet">Covseisnet</a> is a Python package for array signal processing, with a focus on data from seismic networks. The core mathematical object of the package is the network covariance matrix, used for signal detection, source separation, localisation, and plane-wave beamforming. The signal detection and processing methods are based on the analysis of the covariance matrix spectrum. The covariance matrix can be used as input for classical array processing tools such as beamforming and inter-station cross-correlations.</td>
+</tr>
+<tr>
+<td><a href="https://scatseisnet.readthedocs.io/en/latest/"> <img src="https://github.com/scatseisnet/scatseisnet/blob/main/docs/source/logo/logo_scatseisnet_notext.png?raw=true" alt="Scatseisnet logo" width="120"/> </a></td>
+<td><a href="https://github.com/scatseisnet/scatseisnet">Scatseisnet</a> is a Python package for seismic signal detection and classification using deep learning. It is built on top of Covseisnet and leverages covariance matrix analysis for efficient seismic data processing. The package includes pre-trained models for various seismic signal types, including earthquakes, volcanic tremors, and anthropogenic noise. Scatseisnet is designed to be user-friendly and easily integrable into existing seismic data analysis workflows.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/leonard-seydoux/pycpt-city"> <img src="https://raw.githubusercontent.com/leonard-seydoux/pycpt-city/main/logo/logo.gif" alt="Pycpt-city logo" width="120"/> </a></td>
+<td><a href="https://github.com/leonard-seydoux/pycpt-city">PyCPT-city</a> is a Python package for bringing color palette tables (CPT) from the <a href="http://seaviewsensing.com/pub/cpt-city/">cpt-city</a> to Matplotlib. It allows users to easily apply a wide range of color palettes to their visualizations, enhancing the aesthetic appeal and interpretability of geospatial and scientific data plots. The package supports various CPT formats and provides functions for loading, converting, and applying these color palettes in Matplotlib.</td>
+</tr>
+<tr>
+<td><a href="https://github.com/leonard-seydoux/pygmrt"> <img src="https://raw.githubusercontent.com/leonard-seydoux/pygmrt/main/docs/images/logo.png" alt="Pygmrt logo" width="120"/> </a></td>
+<td><a href="https://github.com/leonard-seydoux/pygmrt">PyGMRT</a> is a Python package for automating the fetch data from the <a href="https://www.gmrt.org/">Global Multi-Resolution Topography (GMRT) Synthesis</a> database. The package is designed to facilitate the integration of GMRT data into geospatial analysis workflows, making it easier for researchers and scientists to access and utilize this valuable resource for their studies.</td>
+</tr>
+<tr>
+<td><strong>Contributed</strong></td>
+<td><strong>Description</strong></td>
+</tr>
+<tr>
+<td><a href="https://ebeauce.github.io/beampower/"> <img src="https://github.com/ebeauce/beampower/raw/main/data/beampower_logo.png" width="90"/> </a></td>
+<td><a href="https://github.com/ebeauce/beampower">Beampower</a> is a package for beamforming (or backprojection) of seismic signal for event detection and location. The Python wrapper can call the C (CPU) or CUDA-C (GPU) implementation.</td>
+</tr>
+<tr>
+<td><a href="https://cartopy.readthedocs.io/stable/index.html"> <img src="https://camo.githubusercontent.com/1f693985a9ed078693adf882b8acf4f23d67dd013e1887ffdfb098c31bf28b07/68747470733a2f2f636172746f70792e72656164746865646f63732e696f2f737461626c652f5f7374617469632f636172746f70792e706e67" width="120"/> </a></td>
+<td><a href="https://scitools.org.uk/cartopy/docs/stable/">Cartopy</a> is a library for cartographic projections and geospatial data visualization in Python. It is built on top of Matplotlib and provides a high-level interface for creating maps and visualizing geospatial data. Cartopy supports various map projections, coastlines, borders, and other geographic features, making it a powerful tool for geospatial analysis and visualization.</td>
+</tr>
+</tbody>
+</table>  </div>
+</article>
+
+  </main>
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Léonard Seydoux's Website ",
+  "url" : "https://leonard-seydoux.github.io",
+  "image": "/images/earth.mp4",
+  "description": ""
+}
+</script>
+  <script type="text/javascript"
+    src="https://leonard-seydoux.github.io/static/js/content-height.js"></script>
+  <script type="text/javascript"
+    src="https://leonard-seydoux.github.io/static/js/earth-scroll.js"></script>
+
+</body>
+
+</html>

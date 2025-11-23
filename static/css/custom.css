@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --code-font: 'Cascadia Code', monospace;
+    --primary-font: 'Open Sans', sans-serif;
+    --color-link: #ff9900;
+    --base-font-weight: 400;
+    --strong-font-weight: 600;
+    --h1-top-padding: 10vh;
+    --base-line-height: 1.4;
+    --heading-line-height: 1.2;
+    --heading-font-weight: 500;
+    --list-item-gap: 1rem;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --color-background: #f8f6ef;
+        --color-background-aside: black;
+        --color-primary-text: #777777;
+        --color-secondary-text: #000000;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-background: #272727;
+        --color-background-aside: black;
+        --color-primary-text: #7b7b7b;
+        --color-secondary-text: #ffffff;
+    }
+}
+
+
+
+/* Height of page */
+html,
+body {
+    font-family: var(--primary-font);
+    font-size: 18px;
+    min-height: 100vh !important;
+    background-color: var(--color-background);
+}
+
+/* Font */
+body,
+p {
+    line-height: var(--base-line-height);
+    font-weight: var(--base-font-weight);
+    color: var(--color-primary-text);
+}
+
+body strong,
+p strong {
+    font-weight: var(--strong-font-weight);
+    color: var(--color-secondary-text);
+}
+
+/* Headings */
+
+h1,
+h2,
+h3 {
+    line-height: var(--heading-line-height);
+    font-weight: var(--heading-font-weight);
+    color: var(--color-primary-text);
+}
+
+h1 {
+    font-size: 400%;
+    font-weight: 900;
+    color: var(--color-secondary-text);
+    padding-bottom: 100px;
+}
+
+h2 {
+
+    padding-bottom: 0.3rem;
+    padding-top: 2rem;
+    color: var(--color-secondary-text);
+    font-weight: 900;
+    /* border-bottom: 3px solid var(--color-secondary-text); */
+}
+
+h3 {
+    font-size: 100%;
+    font-weight: bold;
+    color: var(--color-secondary-text)
+}
+
+a {
+    color: var(--light-link-color);
+    text-decoration: underline;
+    text-decoration-thickness: 0.4px;
+    text-underline-offset: 4px;
+}
+
+a:hover {
+    color: var(--color-link)
+}
+
+aside {
+    background-color: var(--color-background-aside);
+    font-weight: 400;
+    padding-top: 100px;
+}
+
+/* Make aside full height if phone */
+@media (max-width: 600px) {
+
+    aside {
+        height: 60vh;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+}
+
+aside a {
+    color: white;
+    text-transform: none;
+    text-decoration: none;
+}
+
+aside a:hover {
+    color: var(--color-link);
+}
+
+/* Linked images */
+aside a img,
+aside a video {
+    filter: contrast(100%) brightness(100%) !important;
+    transition: filter 0.5s ease !important;
+    margin: 0 auto !important;
+    display: block;
+    margin-bottom: 100px !important;
+}
+
+/* Earth video - ensure it displays properly */
+aside a video#earth-video {
+    max-width: 140px !important;
+    display: block;
+    margin: 0 auto !important;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+    /* margin-bottom: 100px !important; */
+}
+
+.logo {
+    float: left;
+    border-radius: 5px;
+    margin-right: 4em;
+}
+
+.picture {
+    float: left;
+    border-radius: 5px;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    filter: grayscale(100%) contrast(80%) brightness(120%) !important;
+    max-width: 100%;
+}
+
+.picture:hover,
+aside a img:hover {
+    filter: none !important;
+    transition: 0.5s ease !important;
+}
+
+/* Center short page content vertically on larger screens */
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Center the article block vertically when there's extra space.
+When the article is taller than the viewport, the auto margins 
+collapse and the article will flow normally (top-aligned). */
+main>article.single {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* Apply h1 top padding only when content is taller than the viewport.
+   A small JS script toggles the 'content-taller' class on <html>. */
+/* Only apply to h1 inside main so aside headings stay unaffected */
+html.content-taller main h1 {
+    padding-top: var(--h1-top-padding);
+}
+
+/* Small vertical gap between list items in the main content */
+main ul>li,
+main ol>li {
+    margin-bottom: var(--list-item-gap);
+}
+
+/* Avoid extra gap after the whole list */
+main ul,
+main ol {
+    margin-bottom: 0.5rem;
+    padding-left: 0em;
+}
+
+/* Remove item bullet point */
+main ul,
+main ol {
+    list-style-type: none;
+}
+
+figure {
+    vertical-align: middle;
+}
+
+table,
+tr,
+td {
+    border: none !important;
+    padding-bottom: 1rem !important;
+    line-height: 1.4 !important;
+}
+
+table {
+    width: 100% !important;
+}
+
+td {
+    padding-right: 4rem !important;
+}
+
+code,
+pre {
+    font-family: var(--code-font) !important;
+    border-radius: 4px;
+    background-color: var(--color-background-aside) !important;
+}
+
+.highlight {
+    /* background-color: transparent !important; */
+    border-radius: 5px !important;
+}
+
+pre {
+    background-color: var(--color-background-aside) !important;
+    border: none !important;
+    border-radius: 6px !important;
+    font-size: 80% !important;
+    max-height: 400px;
+}
+
+blockquote p,
+blockquote ol,
+blockquote ul {
+    color: var(--color-secondary-text) !important;
+    font-weight: var(--base-font-weight) !important;
+}
+
+blockquote {
+    background: none !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    border: none !important;
+}
+
+.vignette {
+    display: inline-flex;
+    min-width: 300px;
+    /* border: 1px solid blue; */
+    flex-wrap: wrap;
+    max-width: 47%;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.vignette img {
+    margin-bottom: auto;
+    margin-right: 2em;
+    /* border: 1px solid green; */
+
+}
+
+.vignette p {
+    margin: 0;
+    /* border: 1px solid red; */
+}
