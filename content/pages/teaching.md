@@ -6,15 +6,15 @@ Order: 3
 ---
 
 
-> I believe in open-source-based teaching, with using community codes such as Jupyter notebooks. While a part of the courses include theoretical background, I favor hands-on learning through practicals and projects. While a part of the courses include theoretical background, I favor hands-on learning through practicals and projects. 
+> I believe in open-source-based teaching, with using community codes such as Jupyter notebooks. While a part of the courses include theoretical background, I favor hands-on learning through practicals and projects. 
 
 ## Tools and infrastructure
 
 
-| <div widt=1000></div> | <div widt=1000></div> |
+| <div width=1000></div> | <div width=1000></div> |
 |-|-|
 | <img width=100 src="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/500px-Jupyter_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail" /> | <img width=100 src="https://pbs.twimg.com/profile_images/1517073854698557440/RUCHHrAC.png" /> |
-| My courses rely on [Jupyter](https://jupyter.org) for interactive computing and data visualization with Python. Jupyter notebooks provide an ideal environment for combining code, visualizations, and explanatory text in a single document, making them perfect for teaching and learning. | We use [JupyterHub](https://jupyterhub.readthedocs.io/en/stable/) hosted on the [Dante supercomputing platform](https://www.ipgp.fr/en/research/research-platforms/dante/) at IPGP. This infrastructure, managed by the [S-CADAD facility](https://www.ipgp.fr/la-recherche/services-communs/s-capad/), allows students to access computational resources directly from their web browser without any local installation, ensuring a consistent learning environment for all participants. | 
+| My courses rely on [Jupyter](https://jupyter.org) for interactive computing and data visualization with Python. Jupyter notebooks provide an ideal environment for combining code, visualizations, and explanatory text in a single document, making them perfect for teaching and learning. | We use [JupyterHub](https://jupyterhub.readthedocs.io/en/stable/) hosted on the [Dante supercomputing platform](https://www.ipgp.fr/en/research/research-platforms/dante/) at IPGP. This infrastructure, managed by the [S-CAPAD facility](https://www.ipgp.fr/la-recherche/services-communs/s-capad/), allows students to access computational resources directly from their web browser without any local installation, ensuring a consistent learning environment for all participants. | 
 | <img width=100 src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"/> | <img width=100 src="https://avatars.githubusercontent.com/u/20685754?s=280&v=4" /> | 
 | We use [Python](https://www.python.org/) as the primary programming language for teaching. Python's simplicity and versatility make it an excellent choice for students of all levels, enabling them to focus on learning concepts. Additionally, Python boasts a rich ecosystem of libraries and tools that are widely used in scientific computing and data analysis. | The class supports are made with **Marp**, a tool for creating slide decks from Markdown files. This allows for seamless integration of content and visuals, making presentations more engaging and informative. | 
 
@@ -30,7 +30,7 @@ This class aims at providing students with a sense of how one can use theory and
 
 ![](https://img.shields.io/badge/Language-English-blue) ![](https://img.shields.io/badge/Duration-24%20hours-blue) ![](https://img.shields.io/badge/Level-Master-blue) ![](https://img.shields.io/badge/Manager-Léonard%20Seydoux-blue) <br> ![](https://img.shields.io/badge/Geosciences-white) ![](https://img.shields.io/badge/Data%20Science-white) ![](https://img.shields.io/badge/Machine--learning-white) ![](https://img.shields.io/badge/Jupyter%20Notebooks-white) 
 
-This class aim to develop the way geoscientific problems can be solved with computer, ranging from rule-based programs to deep learning. Based on theoretical lessons and Jupyter Labs, the audience will learn from both theory and examples that they can re-used afterwards. Check the online description on the IPGP website for a better overview.
+This class aims to develop the way geoscientific problems can be solved with computer, ranging from rule-based programs to deep learning. Based on theoretical lessons and Jupyter Labs, the audience will learn from both theory and examples that they can re-used afterwards. Check the online description on the IPGP website for a better overview.
 
 
 ### Programming for Geosciences
