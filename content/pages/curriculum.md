@@ -5,7 +5,7 @@ Category: pages
 Order: 2
 ---
 
-### Léonard Seydoux<br>Professor in Geophysics & Artificial Intelligence
+### Léonard Seydoux<br>Junior Professor in Geophysics & Artificial Intelligence
 
 [![](https://img.shields.io/badge/Download-curriculum.pdf-red)](/docs/Léonard Seydoux's%20Curriculum%20Vitae.pdf)
 [![](https://img.shields.io/badge/ORCID-0000--0002--6596--5896-9cc241)](https://orcid.org/0000-0002-6596-5896)
@@ -31,7 +31,7 @@ Order: 2
 
 ## Appointments
 
-- **Assistant Professor** (current position) with a [chaire de professeur junior](https://www.enseignementsup-recherche.gouv.fr/fr/des-carrieres-plus-attractives-les-chaires-de-professeur-junior-46095) at the [institut de physique du globe de Paris (IPGP)](https://www.ipgp.fr) within the [Université Paris Cité](https://www.u-paris.fr). Research on AI-based monitoring of seismic and volcanic signals, and teaching of seismology, geophysical computing, and machine learning.
+- **Junior Professor** (since 2022, Assistant Professor equivalent) with a [chaire de professeur junior](https://www.enseignementsup-recherche.gouv.fr/fr/des-carrieres-plus-attractives-les-chaires-de-professeur-junior-46095) at the [institut de physique du globe de Paris (IPGP)](https://www.ipgp.fr) within the [Université Paris Cité](https://www.u-paris.fr). Research on AI-based monitoring of seismic and volcanic signals, and teaching of seismology, geophysical computing, and machine learning.
 
 - **Postdoctoral associate** (2021 to 2022) at [MIT department of Earth, Atmospheric and Planetary Sciences](https://eaps.mit.edu) on slow-slip and tectonic tremor location using deep learning with [William B. Frank](https://eqsci.mit.edu/tecto/author/william-b.-frank/).
 
@@ -44,9 +44,21 @@ Order: 2
 - **Graduate student and teaching assistant** (2013 to 2016) at [IPGP](https://www.ipgp.fr) & [institut Langevin](https://www.institut-langevin.espci.fr) on seismic array processing with a covariance matrix method with [Nikolai M. Shapiro](https://sites.google.com/view/nikolai-shapiro-web-site/accueil/nikolai-shapiro-cv) and [Julien de Rosny](https://www.institut-langevin.espci.fr/people?lang=fr).
 
 
+## Selected publications
+
+My full publication record is available on [Google Scholar](https://scholar.google.com/citations?user=TqLdn9YAAAAJ). <u>Underlined</u> authors are students or postdocs I advised.
+
+- <u>R. Flores-Allende</u>, **L. Seydoux**, É. Beaucé, L. F. Bonilla, P. Guéguen, and C. Satriano (2026). Fine-scale segmentation and spatiotemporal variability of the 2010 M<sub>w</sub> 8.8 Maule aftershock sequence revealed by a deep-learning-based earthquake catalog. *Journal of Geophysical Research: Solid Earth*, 131(4), e2026JB034262. [doi:10.1029/2026JB034262](https://doi.org/10.1029/2026JB034262)
+- <u>R. Esfahani</u>, M. Bracale, **L. Seydoux**, and M. Campillo (2026). Learning wave scattering properties from seismograms. *Journal of Geophysical Research: Machine Learning and Computation*, 3(1), e2025JH000719. [doi:10.1029/2025JH000719](https://doi.org/10.1029/2025JH000719)
+- <u>S. Mouaoued</u>, <u>R. Esfahani</u>, M. Campillo, and **L. Seydoux** (2026). Unsupervised single-station analysis of weak seismicity preceding the 2019 Ridgecrest sequence. *Bulletin of the Seismological Society of America*. [doi:10.1785/0120260034](https://doi.org/10.1785/0120260034)
+- <u>R. Steinmann</u>, **L. Seydoux**, <u>C. Journeau</u>, N. M. Shapiro, and M. Campillo (2024). Machine learning analysis of seismograms reveals a continuous plumbing system evolution beneath the Klyuchevskoy volcano in Kamchatka, Russia. *Journal of Geophysical Research: Solid Earth*, 129(3), e2023JB027167. [doi:10.1029/2023JB027167](https://doi.org/10.1029/2023JB027167)
+- S. Barkaoui, P. Lognonné, T. Kawamura, É. Stutzmann, **L. Seydoux**, M. V. de Hoop, R. Balestriero, et al. (2021). Anatomy of continuous Mars SEIS and pressure data from unsupervised learning. *Bulletin of the Seismological Society of America*, 111(6), 2964–2981. [doi:10.1785/0120210095](https://doi.org/10.1785/0120210095)
+
+
 ## Supervision
 
 ### Postdocs
+- [**Reza Esfahani**](https://orcid.org/0000-0003-3373-9859) — unsupervised learning and scattering representations of continuous seismic data at [ISTerre](https://www.isterre.fr) with Michel Campillo.
 - [**Soyoun Son**](https://scholar.google.com/citations?user=zSov-DoAAAAJ) (2019 to 2021) — seismic waveform clustering on the San Jacinto Fault at [ISTerre](https://www.isterre.fr) with Michel Campillo.
 - [**Jean Soubestre**](https://scholar.google.com/citations?user=6qelAZYAAAAJ) (Spring 2017) — Analysis of the seismovolcanic activity at Kamchatka, at [IPGP](https://www.ipgp.fr) with Nikolai M. Shapiro.
 
@@ -60,6 +72,12 @@ Order: 2
 
 
 ### Undergraduate students
+
+- **Timothée Borde** (Spring 2026) Unsupervised analysis of seismo-volcanic events at Mt. Fuji.
+
+- **Jolane Dongé** (Spring 2026) Hydroacoustic signal analysis of the Fani Maoré eruption.
+
+- **Alain Papajani** (Spring 2026) Discrete elements slip inversion with machine learning.
 
 - **Agathe Brisot** (Spring 2025) Deep seismicity at Stromboli with an array of OBS sensors, at [IPGP](https://www.ipgp.fr) with [Jean-Philippe Métaxian](https://scholar.google.com/citations?user=27Mv-7MAAAAJ).
 
@@ -87,13 +105,14 @@ Order: 2
 ### Departmental Service
 - **President** (Since 2025)  of the network [NuTS](https://nuts.univ-nantes.io) funded by  [CNRS-INSU](https://www.insu.cnrs.fr/fr).
 - **Research fellow** (Since 2025) at the [PR[AI]RIE-PSAI Paris School of Artificial Intelligence](https://www.prairie-psai.fr). 
-- **Scientific board member** (Since 2025) of the [Doctoral School STEP’UP](https://ed560.ed.univ-paris-diderot.fr). 
+- **Scientific board member** (Since 2024) of the [Doctoral School STEP’UP](https://ed560.ed.univ-paris-diderot.fr). 
 - **Working group member** (Since 2024) of the carbon footprint at [IPGP](https://www.ipgp.fr). 
-- **Board of directors elected member** (Since 2023) of [IPGP](https://www.ipgp.fr).
+- **Board of directors elected member** (2023 to 2026) of [IPGP](https://www.ipgp.fr).
+- **Committee member** (Since 2022) of various PhD and Master's thesis committees.
 
 ### Professional Associations
 - **Member** (Since 2019) of the [European Geoscience Union](https://www.egu.eu)
-- **Member** (Since 2013) of the [American Geophysical Union](https://www.agu.org)
+- **Member** (2013 to 2019) of the [American Geophysical Union](https://www.agu.org)
 
 ### Session Convener
 
@@ -120,7 +139,7 @@ Order: 2
 - **Developer** (since 2019) of the open-source [ScatSeisNet](https://scatseisnet.readthedocs.io) Python library.
 - **Developer** (since 2017) of the open-source [CovSeisNet](https://leonard-seydoux.github.io/covseisnet/) Python library.
 - **Deployment of seismic sensors on the San Jacinto fault zone**, (winter 2019) California for the [FaultScan](https://sites.google.com/site/florentbrenguier/Home/research/faultscan-2019-2024/december-2019-experiment?authuser=0) ERC Grant by Florent Brenguier.
-- **Workshop animation** (spring 2017) on [*Artificial intelligence applications in Geophysics*](https://github.com/leonard-seydoux/ML-Geosciences) at [IPGP](https://www.ipgp.fr).
+- **Workshop organizer and speaker** (spring 2017) on [*Artificial intelligence applications in Geophysics*](https://github.com/leonard-seydoux/ML-Geosciences) at [IPGP](https://www.ipgp.fr).
 - **Workshop organizer and speaker** (spring 2014) in the [*PhD student annual meeting*](https://educatix.ipgp.fr/cdd2014) at [IPGP](https://www.ipgp.fr).
 
 ### Reviewing Activities
@@ -133,6 +152,9 @@ Order: 2
 [![](https://img.shields.io/badge/Nature_Communications-white)](https://www.nature.com/ncomms/)
 [![](https://img.shields.io/badge/Journal_of_Seismology-white)](https://link.springer.com/journal/10950)
 [![](https://img.shields.io/badge/Seismica-white)](https://seismica.library.mcgill.ca)
+[![](https://img.shields.io/badge/Acta_Geophysica-white)](https://link.springer.com/journal/11600)
+[![](https://img.shields.io/badge/Advances_in_Space_Research-white)](https://www.sciencedirect.com/journal/advances-in-space-research)
+![](https://img.shields.io/badge/Book_chapter-Nakata_et_al._(2018)-white)
 
 
 ## Technical Skills
@@ -141,7 +163,8 @@ Order: 2
 |-|-|
 |**Additional trainings**| ![](https://img.shields.io/badge/Cleedi_Workshop_2023-Julia_programming-black)  ![](https://img.shields.io/badge/Lenovo_2022-High_performance_computing-black)  ![](https://img.shields.io/badge/ENS_Cachan_2016-Probabilistic_Graphical_Models-black)  ![](https://img.shields.io/badge/Sorbonne_Université_2013-C++-black)|
 |**Programming languages and libraries**| ![](https://img.shields.io/badge/Python-blue)  ![](https://img.shields.io/badge/C++-green)  ![](https://img.shields.io/badge/Matlab-yellow)  ![](https://img.shields.io/badge/Julia-red) ![](https://img.shields.io/badge/MPI-lightgrey)  ![](https://img.shields.io/badge/OpenMP-lightgrey)  ![](https://img.shields.io/badge/SLURM-lightgrey)  ![](https://img.shields.io/badge/Seismic_data_management-ObsPy-lightgrey)  ![](https://img.shields.io/badge/Deep_learning_in_seismology-Seisbench%20\|%20PhaseNet-lightgrey)  ![](https://img.shields.io/badge/Machine_learning-Scikit--learn-lightgrey)  ![](https://img.shields.io/badge/Deep_learning-PyTorch_%7C_TensorFlow-lightgrey)|
-|**Developed libraries**| ![](https://img.shields.io/badge/Array%20processing-CovSeisNet-lightseagreen)  ![](https://img.shields.io/badge/Signal%20processing-ScatSeisNet-lightseagreen)  ![](https://img.shields.io/badge/Symbolic%20deep%20learning-SymJAX-lightseagreen)  ![](https://img.shields.io/badge/Geographic%20mapping-Cartopy-lightseagreen)|
+|**Developed libraries**| [![](https://img.shields.io/badge/Array%20processing-CovSeisNet-lightseagreen)](https://leonard-seydoux.github.io/covseisnet/)  [![](https://img.shields.io/badge/Scattering%20networks-ScatSeisNet-lightseagreen)](https://scatseisnet.readthedocs.io)  [![](https://img.shields.io/badge/Topography%20data-PyGMRT-lightseagreen)](https://github.com/leonard-seydoux/pygmrt)  [![](https://img.shields.io/badge/Color%20palettes-PyCPT--city-lightseagreen)](https://github.com/leonard-seydoux/pycpt-city)|
+|**Contributed libraries**| [![](https://img.shields.io/badge/Symbolic%20deep%20learning-SymJAX-lightseagreen)](https://symjax.readthedocs.io)  [![](https://img.shields.io/badge/Geographic%20mapping-Cartopy-lightseagreen)](https://scitools.org.uk/cartopy/docs/latest/)  [![](https://img.shields.io/badge/Beamforming-Beampower-lightseagreen)](https://ebeauce.github.io/beampower/)|
 |**Spoken languages**| ![](https://img.shields.io/badge/French-Native-lightgrey) ![](https://img.shields.io/badge/English-Fluent-lightgrey) ![](https://img.shields.io/badge/Italian-Good-lightgrey) ![](https://img.shields.io/badge/Spanish-Basic-lightgrey)|
 |**Other skills**| ![](https://img.shields.io/badge/Driving%20license-French_(B)-khaki) ![](https://img.shields.io/badge/Scuba%20diver-CMAS_level_II-khaki) ![](https://img.shields.io/badge/Musics-piano/guitar/flute-khaki)|
 
