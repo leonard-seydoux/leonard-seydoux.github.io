@@ -1,7 +1,7 @@
 # Author and site settings
 AUTHOR = "Léonard Seydoux"
 SITENAME = "Léonard Seydoux's Website"
-SITEURL = "https://leonard-seydoux.github.io"
+SITEURL = ""  # set in publishconf.py for deployment; empty keeps local links on localhost
 PATH = "content"
 
 # Basic settings
@@ -30,7 +30,11 @@ DEFAULT_PAGINATION = 10
 # RELATIVE_URLS = True
 
 # Ensure Pelican copies your custom static files
-STATIC_PATHS = ["images", "static", "extra", "docs"]
+STATIC_PATHS = ["images", "static", "extra", "docs", "slides"]
+
+# Marp slide exports are copied as-is, never parsed as articles or pages
+ARTICLE_EXCLUDES = ["slides"]
+PAGE_EXCLUDES = ["slides"]
 
 # Add your custom stylesheet to the theme
 CUSTOM_CSS = "static/css/custom.css"
