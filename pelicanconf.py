@@ -49,9 +49,9 @@ CUSTOM_JS = [
 SITELOGO = "/images/earth.mp4"
 
 # Browser tab icon (favicon) - using PNG file
-FAVICON = "favicon.png"
+FAVICON = "/favicon.png"
 EXTRA_PATH_METADATA = {
-    "extra/1518145-200.ico": {"path": "favicon.png"},
+    "extra/favicon.png": {"path": "favicon.png"},
 }
 
 THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE = True
