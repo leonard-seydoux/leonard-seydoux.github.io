@@ -26,7 +26,7 @@ Order: 3
 
 This class aims at providing students with a sense of how one can use theory and computers together to test hypotheses regarding the working of a geophysical system. The testing involves the derivation of a theory with predictive power, that has to be checked against observations. Both theory and observations are impacted by uncertainty; one skill that students will acquire is the capability of assessing and propagating uncertainty in the analysis chain, through a series of computer labs specifically designed for the class. Check the online description on the IPGP website for a better overview. The course material is available on the GitHub repository and on demand.
 
-[![Slides: Part 1, Digital signal processing](https://img.shields.io/badge/Slides-Part%201%3A%20Digital%20signal%20processing-orange)](/slides/scientific-computing-signal-processing/) [![PDF](https://img.shields.io/badge/PDF-download-orange)](/slides/scientific-computing-signal-processing/slides.pdf)
+[![Slides: Part 1, Digital signal processing](https://img.shields.io/badge/Slides-Part%201%3A%20Digital%20signal%20processing-orange)](/slides/scientific-computing-signal-processing/)
 
 ### Earth Data Sciences
 
