@@ -10,21 +10,28 @@ Order: 3
 
 ## Tools and infrastructure
 
+<img width=70 src="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/500px-Jupyter_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"/>
 
-| <div width=1000></div> | <div width=1000></div> |
-|-|-|
-| <img width=100 src="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/500px-Jupyter_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail" /> | <img width=100 src="https://pbs.twimg.com/profile_images/1517073854698557440/RUCHHrAC.png" /> |
-| My courses rely on [Jupyter](https://jupyter.org) for interactive computing and data visualization with Python. Jupyter notebooks provide an ideal environment for combining code, visualizations, and explanatory text in a single document, making them perfect for teaching and learning. | We use [JupyterHub](https://jupyterhub.readthedocs.io/en/stable/) hosted on the [Dante supercomputing platform](https://www.ipgp.fr/en/research/research-platforms/dante/) at IPGP. This infrastructure, managed by the [S-CAPAD facility](https://www.ipgp.fr/la-recherche/services-communs/s-capad/), allows students to access computational resources directly from their web browser without any local installation, ensuring a consistent learning environment for all participants. | 
-| <img width=100 src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"/> | <img width=100 src="https://avatars.githubusercontent.com/u/20685754?s=280&v=4" /> | 
-| We use [Python](https://www.python.org/) as the primary programming language for teaching. Python's simplicity and versatility make it an excellent choice for students of all levels, enabling them to focus on learning concepts. Additionally, Python boasts a rich ecosystem of libraries and tools that are widely used in scientific computing and data analysis. | The class supports are made with **Marp**, a tool for creating slide decks from Markdown files. This allows for seamless integration of content and visuals, making presentations more engaging and informative. | 
+My courses rely on [Jupyter](https://jupyter.org) for interactive computing and data visualization with Python. Jupyter notebooks provide an ideal environment for combining code, visualizations, and explanatory text in a single document, making them perfect for teaching and learning. 
+
+<img width=70 src="https://pbs.twimg.com/profile_images/1517073854698557440/RUCHHrAC.png"/>
+
+We use [JupyterHub](https://jupyterhub.readthedocs.io/en/stable/) hosted on the [Dante supercomputing platform](https://www.ipgp.fr/en/research/research-platforms/dante/) at IPGP. This infrastructure, managed by the [S-CAPAD facility](https://www.ipgp.fr/la-recherche/services-communs/s-capad/), allows students to access computational resources directly from their web browser without any local installation, ensuring a consistent learning environment for all participants.
+
+<img width=70 src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"/>
+
+We use [Python](https://www.python.org/) as the primary programming language for teaching. Python's simplicity and versatility make it an excellent choice for students of all levels, enabling them to focus on learning concepts. Additionally, Python boasts a rich ecosystem of libraries and tools that are widely used in scientific computing and data analysis.
+
+<img width=70 src="https://avatars.githubusercontent.com/u/20685754?s=280&v=4"/>
+
+The class supports are made with [Marp](https://marp.app/), a tool for creating slide decks from Markdown files. This allows for seamless integration of content and visuals, making presentations more engaging and informative.
 
 ## Current classes
 
 ### Scientific Computing for Geophysical Problems 
 
-![](https://img.shields.io/badge/Language-English-blue) ![](https://img.shields.io/badge/Duration-32%20hours%2Fyr-blue) ![](https://img.shields.io/badge/Level-Master-blue) ![](https://img.shields.io/badge/Manager-Alexandre%20Fournier-blue) <br> ![](https://img.shields.io/badge/Seismology-white) ![](https://img.shields.io/badge/Computational%20Science-white) ![](https://img.shields.io/badge/Python-white) 
-
-[![Slides: Part 1, Digital signal processing](https://img.shields.io/badge/Slides-%201._Digital%20signal%20processing-orange)](/slides/scientific-computing-signal-processing/)
+![](https://img.shields.io/badge/Language-English-blue) ![](https://img.shields.io/badge/Duration-32%20hours%2Fyr-blue) ![](https://img.shields.io/badge/Level-Master-blue) ![](https://img.shields.io/badge/Manager-Alexandre%20Fournier-blue) <br> ![](https://img.shields.io/badge/Seismology-white) ![](https://img.shields.io/badge/Computational%20Science-white) ![](https://img.shields.io/badge/Python-white) <br>
+[![Slides: Digital signal processing](https://img.shields.io/badge/Slides-Digital%20signal%20processing-orange)](/slides/scientific-computing-signal-processing/)
 
 
 
