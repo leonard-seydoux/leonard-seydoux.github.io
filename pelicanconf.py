@@ -30,7 +30,7 @@ DEFAULT_PAGINATION = 10
 # RELATIVE_URLS = True
 
 # Ensure Pelican copies your custom static files
-STATIC_PATHS = ["images", "static", "extra", "docs", "slides"]
+STATIC_PATHS = ["images", "static", "extra", "docs", "slides", "labs"]
 
 # Marp slide exports are copied as-is, never parsed as articles or pages
 ARTICLE_EXCLUDES = ["slides"]

@@ -22,7 +22,8 @@ Order: 3
 ### Scientific Computing for Geophysical Problems 
 
 ![](https://img.shields.io/badge/Language-English-blue) ![](https://img.shields.io/badge/Duration-32%20hours%2Fyr-blue) ![](https://img.shields.io/badge/Level-Master-blue) ![](https://img.shields.io/badge/Manager-Alexandre%20Fournier-blue) <br> ![](https://img.shields.io/badge/Seismology-white) ![](https://img.shields.io/badge/Computational%20Science-white) ![](https://img.shields.io/badge/Python-white) <br>
-[![Slides: Digital signal processing](https://img.shields.io/badge/Slides-Digital%20signal%20processing-orange)](/slides/scientific-computing-signal-processing/)
+[![Slides: Digital signal processing](https://img.shields.io/badge/Slides-Digital%20signal%20processing-orange)](/slides/scientific-computing-signal-processing/) <br>
+[![Lab: Digital signal processing](https://img.shields.io/badge/Lab-Digital%20signal%20processing%20%28.zip%29-green)](/labs/lab_1_signal_processing.zip)
 
 
 
