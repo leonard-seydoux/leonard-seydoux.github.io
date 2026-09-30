@@ -1,0 +1,41 @@
+/* Latin Modern (Computer Modern), to match the MathJax and matplotlib math.
+Paths are relative to this file. */
+@font-face {
+    font-family: 'Latin Modern Roman';
+    src: url('fonts/lmroman10-regular.otf') format('opentype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman';
+    src: url('fonts/lmroman10-italic.otf') format('opentype');
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman';
+    src: url('fonts/lmroman10-bold.otf') format('opentype');
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman';
+    src: url('fonts/lmroman10-bolditalic.otf') format('opentype');
+    font-style: italic;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Latin Modern Mono';
+    src: url('fonts/lmmono10-regular.otf') format('opentype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+:root {
+    --font-primary: 'Latin Modern Roman', serif;
+    --font-mono: 'Latin Modern Mono', monospace;
+}
