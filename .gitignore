@@ -11,3 +11,11 @@ wheels/
 
 # Pelican build output (CI builds and deploys to master)
 output/
+
+# macOS
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
