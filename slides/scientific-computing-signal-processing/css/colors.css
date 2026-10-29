@@ -1,0 +1,39 @@
+/* These are IPGP colors. You can change to your own colors. */
+:root {
+    --color-lava: #ef3b37;
+    --color-ocre: #f35639;
+    --color-magma: #da291c;
+    --color-rubis: #8a1538;
+    --color-sable: #f7f3ef;
+    --color-sable-accent: #e7d9cd;
+    --color-graphite: #48424d;
+    --color-graphite-accent: #5a555e;
+    --color-terra: #dca67a;
+    --color-blueschist: #84bdde;
+    --color-olivine: #7aa585;
+}
+
+/* Matplotlib default colors (tab10), used by the figures as C0, C1, etc. */
+:root {
+    --color-C0-blue: #1f77b4;
+    --color-C1-orange: #ff7f0e;
+    --color-C2-green: #2ca02c;
+    --color-C3-red: #d62728;
+    --color-C4-purple: #9467bd;
+    --color-C8-olive: #bcbd22;
+    --color-gray-light: #f5f5f5;
+    --color-gray-accent: #e6e6e6;
+}
+
+/* Attribute colors from the color theme to the different elements */
+:root {
+    --color-primary: black;
+    --color-secondary: var(--color-lava);
+    --color-ternary: var(--color-terra);
+    --color-takehome: black;
+    --color-math: black;
+    --color-body: black;
+    --color-light: var(--color-gray-light);
+    --color-light-accent: var(--color-gray-accent);
+    --color-footer: rgba(0, 0, 0, 0.3);
+}
