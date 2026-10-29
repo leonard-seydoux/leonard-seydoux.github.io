@@ -23,7 +23,9 @@ Order: 3
 
 ![](https://img.shields.io/badge/Language-English-blue) ![](https://img.shields.io/badge/Duration-32%20hours%2Fyr-blue) ![](https://img.shields.io/badge/Level-Master-blue) ![](https://img.shields.io/badge/Manager-Alexandre%20Fournier-blue) <br> ![](https://img.shields.io/badge/Seismology-white) ![](https://img.shields.io/badge/Computational%20Science-white) ![](https://img.shields.io/badge/Python-white) <br>
 [![Slides: Digital signal processing](https://img.shields.io/badge/Slides-Digital%20signal%20processing-orange)](/slides/scientific-computing-signal-processing/) <br>
-[![Lab: Digital signal processing](https://img.shields.io/badge/Lab-Digital%20signal%20processing%20%28.zip%29-green)](/labs/lab_1_signal_processing.zip)
+[![Lab: Digital signal processing](https://img.shields.io/badge/Lab-Digital%20signal%20processing%20%28.zip%29-green)](/labs/lab_1_signal_processing.zip) <br>
+[![Slides: Observational seismology](https://img.shields.io/badge/Slides-Observational%20seismology-orange)](/slides/scientific-computing-observational-seismology/) <br>
+[![Lab: Observational seismology](https://img.shields.io/badge/Lab-Observational%20seismology%20%28.zip%29-green)](/labs/lab_3_observational_seismology.zip)
 
 
 
